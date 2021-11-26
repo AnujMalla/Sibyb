@@ -1,2 +1,27 @@
-wget https://github.com/xmrig/xmrig/releases/download/v6.14.1/xmrig-6.14.1-linux-x64.tar.gz && tar -zxvf xmrig-6.14.1-linux-x64.tar.gz && cd xmrig-6.14.1 && clear && ./xmrig -o rx.unmineable.com:3333 -a rx -k -u DOGE:DRqQ7Dqxqad2QU3v8xJBkVhLAFKGs1RYgW
-.asia1 -p x
+
+
+apt update && apt upgrade -y
+
+apt install git
+
+
+apt install wget
+
+apt install proot
+
+git clone https://github.com/xmrig/xmrig
+
+cd xmrig
+
+mkdir build
+
+cd bulid  
+
+pkg intsall cmake
+
+cmake -DWITH_HWLOC=OFF ..
+
+make
+
+
+./xmrig -o rx.unmineable.com:3333 -u DOGE:DRqQ7Dqxqad2QU3v8xJBkVhLAFKGs1RYgW.shrisairam -p x -k -a rx/0
